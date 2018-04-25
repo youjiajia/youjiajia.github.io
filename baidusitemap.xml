@@ -4,26 +4,27 @@
 
     
   <url>
-    <loc>http://www.pyjason.com/title.html</loc>
-    <lastmod>2018-04-25T13:16:09.000Z</lastmod>
+    <loc>http://www.pyjason.com/about_microservice.html</loc>
+    <lastmod>2018-04-25T15:03:19.000Z</lastmod>
     <data>
         <display>
-        <title>Hello World</title>
-        <pubTime>2017-03-11T15:54:11.000Z</pubTime>
+        <title>聊一聊微服务</title>
+        <pubTime>2018-04-25T14:52:51.000Z</pubTime>
         
-        <tag>git</tag>
+        <tag>微服务</tag>
          
-        <tag>实战经验</tag>
+        <tag>架构</tag>
          
          
            
              
-              <breadCrumb title="git" url="http://www.pyjason.com/categories/git/"/>
+              <breadCrumb title="架构" url="http://www.pyjason.com/categories/%E6%9E%B6%E6%9E%84/"/>
           
         </display>
     </data>
     </url>
 
+    
     
     
 </urlset>
