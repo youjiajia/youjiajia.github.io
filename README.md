@@ -1,1 +1,1 @@
-## [MY Static Blog](https://www.pyjason.com)
+## [My Blog](https://www.pyjason.com)
