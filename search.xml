@@ -3,6 +3,27 @@
   
     
     <entry>
+      <title>docker常用命令</title>
+      <link href="/docker_common_commands.html"/>
+      <url>/docker_common_commands.html</url>
+      <content type="html"><![CDATA[<h1 id="什么是Docker"><a href="#什么是Docker" class="headerlink" title="什么是Docker"></a>什么是Docker</h1><p>Docker就是，以docker容器为资源分割和调度的基本单位，封装整个软件运行时环境，为开发者和系统管理员设计的，用于构建、发布和运行分布式应用的平台。</p><p>docker的特性是易用，跨平台，可移植性。优势在于简化CI（持续集成）和CD（持续交互）的构建流程，让开发者集中精力在应用开发上。docker命令繁杂，本篇记录了docker常用的命令。</p><h1 id="Docker常用命令"><a href="#Docker常用命令" class="headerlink" title="Docker常用命令"></a>Docker常用命令</h1><ol><li>docker 环境信息<ul><li>docker info用于检查docker是否正确安装，一般结合docker version使用</li></ul></li><li><p>容器生命周期管理,涉及容器启动，停止等功能，常用的有run，start,stop,restart</p><ul><li><p>docker run命令用于基于特定的镜像创建一个容器，并依据选项控制容器。</p><ul><li>-i选项表示使用交互模式，始终保持输入流开放</li><li>-t选项表示分配一个伪终端，一般两个参数结合使用-it, 即可在终端中打开伪终端进行交互操作</li><li>–name选项可指定docker run命令启动的容器的名字。否则，docker将为容器随机分配一个名字</li><li>-c选项用于给运行在容器中的所有进程分配cpu的share值，这是一个相对权重，实际的处理速度还是与宿主机的cpu有关</li><li>-m选项 用于限制为容器中所有进程分配的内存总量，以B,K,M,G为单位</li><li>-v选项 用于挂载一个volume， 可以用一个-v参数挂载多个volume volume的格式为[host-dir]:[container-dir]:<a href="即宿主机文件/目录:容器里对应的文件/目录，rw为可读写，ro为只可读">rw:ro</a></li><li>-p选项用于将容器的端口暴露给宿主机的端口，其常用格式为hostPort:containerPort</li><li>-e或者-env设置环境变量</li><li>–link [name:aliasname]连接名为name的容器，并起一个别名为aliasname, 使用link不仅可以避免ip和端口暴露在外网的风险，还可以预防容器在重启后ip地址变化导致的访问失败，原理类似于dns的域名和地址映射。</li></ul></li><li><p>docker start/stop/restart命令用于对已存在的容器进去启动，停止和重启，一般使用容器id作标识，也可使用容器名来确定容器.start命令使用-i选项来开启交互模式，始终保持输入流开放。使用-a附加标准输入、输出和错误输出。此外，docker stop和docker restart命令使用-t选项来设定容器停止前的等待时间。</p></li></ul></li><li>docker registry<ul><li>docker pull命令从registry中拉取image或repository，使用方法为docker pull [options] name[:tag]，例如docker pull SEL/ubuntu:ubuntu12.04为从特定仓库拉取Ubuntu 12.04 tag的镜像</li><li>docker push命令将本地image或者repository推送到镜像库，使用方法如下: docker push NAME[:TAG]</li><li>docker commit 将一个容器固化为一个新的镜像，提交时只能选用正在运行的容器。</li></ul></li><li>镜像管理<ul><li>docker images列出主机镜像，默认只有顶层镜像，可以使用-a显示所有镜像</li><li>docker rmi删除镜像，可同时删除多个，但是删除镜像前必须先删除容器</li><li>docker rm删除容器,可同时删除多个</li><li>docker build构建镜像，-t指定最终镜像名称，后指定上下文路径，或Git repo或tar或从标准输入中读取</li></ul></li><li>运维操作<ul><li>docker attach连接到正在运行的容器，与主进程进行交互</li><li>docker inspect可以查看容器或镜像的详细信息</li><li>docker ps命令查看容器相关信息，默认只显示正在运行的容器,-a参数可以查看所有容器，-l参数可以查看最新的容器</li><li>docker events打印实时系统事件</li><li>docker history打印指定镜像历史版本信息</li><li>docker logs打印容器中进程的运行日志</li></ul></li></ol>]]></content>
+      
+      <categories>
+          
+          <category> docker </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> docker </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>fabric 服务器管理和应用发布神器</title>
       <link href="/about_fabric.html"/>
       <url>/about_fabric.html</url>
