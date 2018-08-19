@@ -4,6 +4,66 @@
 
     
   <url>
+    <loc>http://www.pyjason.com/undefined.html</loc>
+    <lastmod>2018-08-19T16:03:39.000Z</lastmod>
+    <data>
+        <display>
+        <title>golang学习笔记</title>
+        <pubTime>2018-08-19T06:05:30.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.pyjason.com/bdd_profile.html</loc>
+    <lastmod>2018-05-17T12:23:19.000Z</lastmod>
+    <data>
+        <display>
+        <title>BDD行为驱动开发概要</title>
+        <pubTime>2018-05-16T06:36:46.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>测试</tag>
+         
+         
+           
+             
+              <breadCrumb title="python" url="http://www.pyjason.com/categories/python/"/>
+          
+             
+              <breadCrumb title="测试" url="http://www.pyjason.com/categories/python/%E6%B5%8B%E8%AF%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.pyjason.com/docker_core_principles.html</loc>
+    <lastmod>2018-05-16T06:08:56.000Z</lastmod>
+    <data>
+        <display>
+        <title>docker核心原理</title>
+        <pubTime>2018-05-16T03:10:22.000Z</pubTime>
+        
+        <tag>docker</tag>
+         
+         
+           
+             
+              <breadCrumb title="docker" url="http://www.pyjason.com/categories/docker/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.pyjason.com/docker_common_commands.html</loc>
     <lastmod>2018-05-16T03:08:18.000Z</lastmod>
     <data>
@@ -31,9 +91,9 @@
         <title>fabric 服务器管理和应用发布神器</title>
         <pubTime>2018-05-04T07:50:05.000Z</pubTime>
         
-        <tag>fabric</tag>
-         
         <tag>python</tag>
+         
+        <tag>fabric</tag>
          
         <tag>运维</tag>
          

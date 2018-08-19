@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.pyjason.com/undefined.html</loc>
+    
+    <lastmod>2018-08-19T16:03:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pyjason.com/bdd_profile.html</loc>
+    
+    <lastmod>2018-05-17T12:23:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pyjason.com/docker_core_principles.html</loc>
+    
+    <lastmod>2018-05-16T06:08:56.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.pyjason.com/docker_common_commands.html</loc>
     
     <lastmod>2018-05-16T03:08:18.000Z</lastmod>
